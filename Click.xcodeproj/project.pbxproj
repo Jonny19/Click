@@ -84,10 +84,9 @@
 				DD252E501F0220C400A8D18E /* View */,
 				DD252E4F1F0220BD00A8D18E /* Controller */,
 				DD252E3B1F021CA800A8D18E /* AppDelegate.swift */,
-				DD252E3D1F021CA800A8D18E /* SignInVC.swift */,
 				DD252E3F1F021CA800A8D18E /* Main.storyboard */,
-				DD252E421F021CA800A8D18E /* Assets.xcassets */,
 				DD252E441F021CA800A8D18E /* LaunchScreen.storyboard */,
+				DD252E421F021CA800A8D18E /* Assets.xcassets */,
 				DD252E471F021CA800A8D18E /* Info.plist */,
 				DD252E4D1F021D1800A8D18E /* GoogleService-Info.plist */,
 			);
@@ -97,6 +96,7 @@
 		DD252E4F1F0220BD00A8D18E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DD252E3D1F021CA800A8D18E /* SignInVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
