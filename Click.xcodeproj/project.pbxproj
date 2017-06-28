@@ -14,6 +14,11 @@
 		DD252E431F021CA800A8D18E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD252E421F021CA800A8D18E /* Assets.xcassets */; };
 		DD252E461F021CA800A8D18E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD252E441F021CA800A8D18E /* LaunchScreen.storyboard */; };
 		DD252E4E1F021D1800A8D18E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD252E4D1F021D1800A8D18E /* GoogleService-Info.plist */; };
+		DD252E531F03684C00A8D18E /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD252E521F03684C00A8D18E /* FancyView.swift */; };
+		DD252E561F03687700A8D18E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD252E551F03687700A8D18E /* Constants.swift */; };
+		DD252E581F036ABC00A8D18E /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD252E571F036ABC00A8D18E /* RoundButton.swift */; };
+		DD252E5A1F036BAA00A8D18E /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD252E591F036BAA00A8D18E /* RoundedImage.swift */; };
+		DD252E5C1F036FA500A8D18E /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD252E5B1F036FA500A8D18E /* FancyField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		DD252E451F021CA800A8D18E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD252E471F021CA800A8D18E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD252E4D1F021D1800A8D18E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD252E521F03684C00A8D18E /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		DD252E551F03687700A8D18E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DD252E571F036ABC00A8D18E /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		DD252E591F036BAA00A8D18E /* RoundedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		DD252E5B1F036FA500A8D18E /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		EF15EFFA4986DBD7B71E714B /* Pods_Click.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Click.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +90,7 @@
 		DD252E3A1F021CA700A8D18E /* Click */ = {
 			isa = PBXGroup;
 			children = (
+				DD252E541F03686700A8D18E /* Util */,
 				DD252E511F0220CA00A8D18E /* Model */,
 				DD252E501F0220C400A8D18E /* View */,
 				DD252E4F1F0220BD00A8D18E /* Controller */,
@@ -104,6 +115,10 @@
 		DD252E501F0220C400A8D18E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD252E521F03684C00A8D18E /* FancyView.swift */,
+				DD252E571F036ABC00A8D18E /* RoundButton.swift */,
+				DD252E591F036BAA00A8D18E /* RoundedImage.swift */,
+				DD252E5B1F036FA500A8D18E /* FancyField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +128,14 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		DD252E541F03686700A8D18E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DD252E551F03687700A8D18E /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD252E3E1F021CA800A8D18E /* SignInVC.swift in Sources */,
+				DD252E581F036ABC00A8D18E /* RoundButton.swift in Sources */,
 				DD252E3C1F021CA800A8D18E /* AppDelegate.swift in Sources */,
+				DD252E5A1F036BAA00A8D18E /* RoundedImage.swift in Sources */,
+				DD252E531F03684C00A8D18E /* FancyView.swift in Sources */,
+				DD252E5C1F036FA500A8D18E /* FancyField.swift in Sources */,
+				DD252E561F03687700A8D18E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

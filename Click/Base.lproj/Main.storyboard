@@ -32,33 +32,33 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SbA-Kz-Wap">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SbA-Kz-Wap" customClass="FancyField" customModule="Click" customModuleProvider="target">
                                 <rect key="frame" x="40" y="271" width="295" height="40"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="d3u-Rp-LIu"/>
                                     <constraint firstAttribute="width" constant="295" id="dIy-SN-C3G"/>
                                 </constraints>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="49r-Hi-Ai0">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="49r-Hi-Ai0" customClass="FancyField" customModule="Click" customModuleProvider="target">
                                 <rect key="frame" x="40" y="326" width="295" height="40"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="L5q-tG-82a"/>
                                     <constraint firstAttribute="width" constant="295" id="pJc-fD-VbB"/>
                                 </constraints>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acg-L4-QoG">
-                                <rect key="frame" x="40" y="381" width="295" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acg-L4-QoG" customClass="RoundButton" customModule="Click" customModuleProvider="target">
+                                <rect key="frame" x="40" y="381" width="295" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="295" id="VJc-s9-Bch"/>
-                                    <constraint firstAttribute="height" constant="30" id="vuU-nh-W4w"/>
+                                    <constraint firstAttribute="height" constant="40" id="vuU-nh-W4w"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -67,7 +67,7 @@
                                 </state>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zeM-bD-y1H">
-                                <rect key="frame" x="40" y="459" width="130" height="2"/>
+                                <rect key="frame" x="40" y="469" width="130" height="2"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="2Ww-OR-d8w"/>
@@ -75,7 +75,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rXE-bK-nn4">
-                                <rect key="frame" x="205" y="459" width="130" height="2"/>
+                                <rect key="frame" x="205" y="469" width="130" height="2"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="9On-Pl-ZkZ"/>
@@ -83,63 +83,56 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2I-Oi-yVw">
-                                <rect key="frame" x="176.5" y="451" width="21" height="18.5"/>
+                                <rect key="frame" x="176.5" y="461" width="21" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="vJ1-Xg-3Md">
-                                <rect key="frame" x="40" y="484.5" width="165" height="20"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Z0O-FB-3jI">
+                                <rect key="frame" x="64" y="494.5" width="247" height="20"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook" translatesAutoresizingMaskIntoConstraints="NO" id="jWU-r0-an5">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook" translatesAutoresizingMaskIntoConstraints="NO" id="jWU-r0-an5" customClass="RoundedImage" customModule="Click" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="FG9-aO-cR5"/>
-                                            <constraint firstAttribute="height" constant="20" id="sK5-5J-f7N"/>
+                                            <constraint firstAttribute="width" constant="20" id="ami-jP-wh2"/>
+                                            <constraint firstAttribute="height" constant="20" id="lcb-0v-Bsb"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYo-wa-s0b">
-                                        <rect key="frame" x="24" y="0.0" width="141" height="20"/>
+                                        <rect key="frame" x="30" y="0.0" width="141" height="20"/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                         <state key="normal" title="Login with Facebook">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQ3-1a-U6f">
+                                        <rect key="frame" x="181" y="0.0" width="1" height="20"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="BAu-3n-VGd"/>
+                                            <constraint firstAttribute="height" constant="30" id="aae-EJ-rZg"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wF-gV-xnr">
+                                        <rect key="frame" x="192" y="0.0" width="55" height="20"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                        <state key="normal" title="Sign Up">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="JYo-wa-s0b" firstAttribute="leading" secondItem="jWU-r0-an5" secondAttribute="trailing" id="OQ5-k4-Rqq"/>
-                                </constraints>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQ3-1a-U6f">
-                                <rect key="frame" x="220" y="480" width="1" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="1" id="YPh-0k-qcF"/>
-                                    <constraint firstAttribute="height" constant="30" id="x7n-pE-p6z"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wF-gV-xnr">
-                                <rect key="frame" x="234" y="480" width="55" height="32"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
-                                <state key="normal" title="Sign Up">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9wF-gV-xnr" firstAttribute="top" secondItem="rXE-bK-nn4" secondAttribute="bottom" constant="19" id="B4o-mJ-btN"/>
-                            <constraint firstItem="vJ1-Xg-3Md" firstAttribute="top" secondItem="U2I-Oi-yVw" secondAttribute="bottom" constant="15" id="ByX-7z-eqH"/>
                             <constraint firstItem="U2I-Oi-yVw" firstAttribute="top" secondItem="acg-L4-QoG" secondAttribute="bottom" constant="40" id="C8h-Lf-pzN"/>
                             <constraint firstItem="acg-L4-QoG" firstAttribute="top" secondItem="49r-Hi-Ai0" secondAttribute="bottom" constant="15" id="FKZ-R4-VCO"/>
-                            <constraint firstItem="uQ3-1a-U6f" firstAttribute="leading" secondItem="vJ1-Xg-3Md" secondAttribute="trailing" constant="15" id="ILT-jP-l12"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="9wF-gV-xnr" secondAttribute="trailing" constant="70" id="J44-Z8-sS5"/>
-                            <constraint firstItem="uQ3-1a-U6f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="480" id="JJx-JC-Ace"/>
+                            <constraint firstItem="Z0O-FB-3jI" firstAttribute="top" secondItem="U2I-Oi-yVw" secondAttribute="bottom" constant="15" id="N38-X0-Eg1"/>
                             <constraint firstItem="zeM-bD-y1H" firstAttribute="top" secondItem="acg-L4-QoG" secondAttribute="bottom" constant="48" id="NRI-FQ-0SH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rXE-bK-nn4" secondAttribute="trailing" constant="24" id="NjE-jg-8VW"/>
                             <constraint firstItem="acg-L4-QoG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q8Y-Fr-tpk"/>
-                            <constraint firstItem="vJ1-Xg-3Md" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="QtG-OV-Xbg"/>
                             <constraint firstItem="zeM-bD-y1H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="YHN-Uu-bPW"/>
+                            <constraint firstItem="Z0O-FB-3jI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZkR-cv-HSo"/>
                             <constraint firstItem="SbA-Kz-Wap" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aqd-Ue-s9g"/>
                             <constraint firstItem="U2I-Oi-yVw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dRO-DK-5z4"/>
                             <constraint firstItem="rXE-bK-nn4" firstAttribute="top" secondItem="acg-L4-QoG" secondAttribute="bottom" constant="48" id="e0q-cg-n8Y"/>
