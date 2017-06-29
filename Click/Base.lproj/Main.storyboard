@@ -34,7 +34,7 @@
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SbA-Kz-Wap" customClass="FancyField" customModule="Click" customModuleProvider="target">
                                 <rect key="frame" x="40" y="271" width="295" height="40"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="d3u-Rp-LIu"/>
                                     <constraint firstAttribute="width" constant="295" id="dIy-SN-C3G"/>
@@ -45,7 +45,7 @@
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="49r-Hi-Ai0" customClass="FancyField" customModule="Click" customModuleProvider="target">
                                 <rect key="frame" x="40" y="326" width="295" height="40"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="L5q-tG-82a"/>
                                     <constraint firstAttribute="width" constant="295" id="pJc-fD-VbB"/>
@@ -65,6 +65,10 @@
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="facebookBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="afF-kk-pMo"/>
+                                    <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zkk-Vp-jkX"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zeM-bD-y1H">
                                 <rect key="frame" x="40" y="469" width="130" height="2"/>
@@ -146,6 +150,10 @@
                             <constraint firstItem="49r-Hi-Ai0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zAQ-bB-Cf2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="SbA-Kz-Wap" id="0HC-bq-SEG"/>
+                        <outlet property="passwordField" destination="49r-Hi-Ai0" id="ffX-ke-x1Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
