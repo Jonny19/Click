@@ -11,7 +11,7 @@ target 'Click' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
-  
   pod 'FBSDKLoginKit'
+  pod 'SwiftKeychainWrapper'
 
 end
