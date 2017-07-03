@@ -19,5 +19,11 @@ class RoundButton: UIButton {
 //        layer.backgroundColor = UIColor.white.withAlphaComponent(0.5).cgColor
         
     }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        layer.cornerRadius = self.frame.width / 2
+    }
 
 }
