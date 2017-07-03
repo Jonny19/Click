@@ -188,6 +188,9 @@
                                             <constraint firstAttribute="height" constant="24" id="ZyY-MY-mbO"/>
                                         </constraints>
                                         <state key="normal" image="sign-out"/>
+                                        <connections>
+                                            <action selector="signOutTapped:" destination="n7r-PM-vCE" eventType="touchUpInside" id="sh2-cR-djM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.090190418064594269" green="0.2272641658782959" blue="0.33595722913742065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -327,6 +330,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="GaF-VH-AoH" firstAttribute="top" secondItem="aOg-lL-UOt" secondAttribute="bottom" constant="16" id="F6z-l6-WCI"/>
                             <constraint firstAttribute="trailing" secondItem="GaF-VH-AoH" secondAttribute="trailing" id="Hjj-gd-cbZ"/>

@@ -23,6 +23,7 @@
 		DDAC27FA1F07845300151645 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC27F91F07845300151645 /* CircleView.swift */; };
 		DDAC27FC1F09F00D00151645 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC27FB1F09F00D00151645 /* PostCell.swift */; };
 		DDAC27FE1F09F4BA00151645 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC27FD1F09F4BA00151645 /* ProfileImage.swift */; };
+		DDAC28011F0A1C6B00151645 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC28001F0A1C6B00151645 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		DDAC27F91F07845300151645 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		DDAC27FB1F09F00D00151645 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		DDAC27FD1F09F4BA00151645 /* ProfileImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		DDAC28001F0A1C6B00151645 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EF15EFFA4986DBD7B71E714B /* Pods_Click.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Click.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 		DD252E3A1F021CA700A8D18E /* Click */ = {
 			isa = PBXGroup;
 			children = (
+				DDAC27FF1F0A1C4F00151645 /* Services */,
 				DD252E5D1F05198400A8D18E /* Click.entitlements */,
 				DD252E541F03686700A8D18E /* Util */,
 				DD252E511F0220CA00A8D18E /* Model */,
@@ -150,6 +153,14 @@
 				DD252E551F03687700A8D18E /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		DDAC27FF1F0A1C4F00151645 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC28001F0A1C6B00151645 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				DDAC27FA1F07845300151645 /* CircleView.swift in Sources */,
 				DD252E3E1F021CA800A8D18E /* SignInVC.swift in Sources */,
 				DD252E581F036ABC00A8D18E /* RoundButton.swift in Sources */,
+				DDAC28011F0A1C6B00151645 /* DataService.swift in Sources */,
 				DD252E3C1F021CA800A8D18E /* AppDelegate.swift in Sources */,
 				DD252E5A1F036BAA00A8D18E /* RoundedImage.swift in Sources */,
 				DDAC27F81F074DC000151645 /* FeedVC.swift in Sources */,
