@@ -20,6 +20,7 @@
 		DD252E5A1F036BAA00A8D18E /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD252E591F036BAA00A8D18E /* RoundedImage.swift */; };
 		DD252E5C1F036FA500A8D18E /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD252E5B1F036FA500A8D18E /* FancyField.swift */; };
 		DDAC27F81F074DC000151645 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC27F71F074DC000151645 /* FeedVC.swift */; };
+		DDAC27FA1F07845300151645 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC27F91F07845300151645 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		DD252E5B1F036FA500A8D18E /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		DD252E5D1F05198400A8D18E /* Click.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Click.entitlements; sourceTree = "<group>"; };
 		DDAC27F71F074DC000151645 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		DDAC27F91F07845300151645 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		EF15EFFA4986DBD7B71E714B /* Pods_Click.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Click.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 				DD252E571F036ABC00A8D18E /* RoundButton.swift */,
 				DD252E591F036BAA00A8D18E /* RoundedImage.swift */,
 				DD252E5B1F036FA500A8D18E /* FancyField.swift */,
+				DDAC27F91F07845300151645 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAC27FA1F07845300151645 /* CircleView.swift in Sources */,
 				DD252E3E1F021CA800A8D18E /* SignInVC.swift in Sources */,
 				DD252E581F036ABC00A8D18E /* RoundButton.swift in Sources */,
 				DD252E3C1F021CA800A8D18E /* AppDelegate.swift in Sources */,
