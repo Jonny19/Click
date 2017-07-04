@@ -24,6 +24,8 @@
 		DDAC27FC1F09F00D00151645 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC27FB1F09F00D00151645 /* PostCell.swift */; };
 		DDAC27FE1F09F4BA00151645 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC27FD1F09F4BA00151645 /* ProfileImage.swift */; };
 		DDAC28011F0A1C6B00151645 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC28001F0A1C6B00151645 /* DataService.swift */; };
+		DDAC28031F0B5BD100151645 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC28021F0B5BD100151645 /* Post.swift */; };
+		DDAC28051F0B6B0400151645 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC28041F0B6B0400151645 /* SignInButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		DDAC27FB1F09F00D00151645 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		DDAC27FD1F09F4BA00151645 /* ProfileImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		DDAC28001F0A1C6B00151645 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DDAC28021F0B5BD100151645 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DDAC28041F0B6B0400151645 /* SignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		EF15EFFA4986DBD7B71E714B /* Pods_Click.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Click.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,6 +140,7 @@
 				DDAC27F91F07845300151645 /* CircleView.swift */,
 				DDAC27FB1F09F00D00151645 /* PostCell.swift */,
 				DDAC27FD1F09F4BA00151645 /* ProfileImage.swift */,
+				DDAC28041F0B6B0400151645 /* SignInButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 		DD252E511F0220CA00A8D18E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DDAC28021F0B5BD100151645 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -297,8 +303,10 @@
 				DD252E3E1F021CA800A8D18E /* SignInVC.swift in Sources */,
 				DD252E581F036ABC00A8D18E /* RoundButton.swift in Sources */,
 				DDAC28011F0A1C6B00151645 /* DataService.swift in Sources */,
+				DDAC28031F0B5BD100151645 /* Post.swift in Sources */,
 				DD252E3C1F021CA800A8D18E /* AppDelegate.swift in Sources */,
 				DD252E5A1F036BAA00A8D18E /* RoundedImage.swift in Sources */,
+				DDAC28051F0B6B0400151645 /* SignInButton.swift in Sources */,
 				DDAC27F81F074DC000151645 /* FeedVC.swift in Sources */,
 				DD252E531F03684C00A8D18E /* FancyView.swift in Sources */,
 				DD252E5C1F036FA500A8D18E /* FancyField.swift in Sources */,

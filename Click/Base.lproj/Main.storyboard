@@ -54,7 +54,7 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acg-L4-QoG" customClass="RoundButton" customModule="Click" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acg-L4-QoG" customClass="SignInButton" customModule="Click" customModuleProvider="target">
                                 <rect key="frame" x="40" y="381" width="295" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="295" id="VJc-s9-Bch"/>
